@@ -1,0 +1,1 @@
+{"temperature":{"warning":80,"critical":95,"unit":"°C"},"vibration":{"warning":4.5,"critical":7.1,"unit":"mm/s"},"power":{"warning":1.25,"critical":1.5,"unit":"kW"},"historyLimit":120,"tickSeconds":5}
