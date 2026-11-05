@@ -1,0 +1,27 @@
+{
+  "name": "factoryguard-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite frontend --host 0.0.0.0 --port 3000",
+    "build": "vite build frontend --outDir ../dist --emptyOutDir",
+    "test": "node --test tests/demo.test.mjs",
+    "backend": "python -m uvicorn backend.main:app --host 0.0.0.0 --port 8000",
+    "dev:frontend": "vite frontend --host 0.0.0.0 --port 3000",
+    "dev:full": "node scripts/dev.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "recharts": "3.8.0",
+    "lucide-react": "1.31.0"
+  },
+  "devDependencies": {
+    "vite": "8.0.13",
+    "@vitejs/plugin-react": "6.0.2",
+    "tailwindcss": "4.2.1",
+    "@tailwindcss/postcss": "4.2.1",
+    "postcss": "8.5.23"
+  }
+}
